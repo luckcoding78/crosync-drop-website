@@ -2,8 +2,8 @@ export const siteContent = {
   defaultLocale: "en",
   supportedLocales: ["en", "zh", "ja"],
   downloads: {
-    windows: "https://github.com/luckcoding78/crosync-drop-website/releases/download/v1.0.0/CrosyncHubSetup.exe",
-    mac: "https://github.com/luckcoding78/crosync-drop-website/releases/download/v1.0.0/CrosyncHub.dmg"
+    windows: "https://github.com/luckcoding78/crosync-drop-website/releases/latest/download/CrosyncHubSetup.exe",
+    mac: "https://github.com/luckcoding78/crosync-drop-website/releases/latest/download/CrosyncHub.dmg"
   },
   shared: {
     en: {
@@ -234,24 +234,42 @@ export const siteContent = {
           languageLabel: "English",
           title: "Privacy Policy",
           body: [
-            "[English Privacy Policy content pending]",
-            "Prepare final text covering data collection, local network usage, file transfer scope, support contact, and updates."
+            "Crosync Drop is designed to help you transfer files from your computer to your iPhone over the same local network with the help of Crosync Hub.",
+            "We do not intentionally collect the contents of the files you transfer through the app and desktop companion. File transfers are initiated by you and are intended to occur directly within your local network environment.",
+            "The app and website may process limited technical information that is necessary to provide the service, such as device connection state, local network discovery status, app version information, and basic error details used for troubleshooting.",
+            "If you contact support, we may receive the information you choose to send us, including your email address and any diagnostic details you include in your message. We use that information only to respond to your request and improve support quality.",
+            "Crosync Drop and Crosync Hub may request local network or system permissions that are required for device discovery, connection, and file transfer. These permissions are used only to enable the product's core functionality.",
+            "We do not sell your personal information. We do not use this website to run a user account system or a behavioral advertising system.",
+            "Because software evolves, we may update this Privacy Policy from time to time. When we make material changes, we may update the policy text on this page along with the effective date.",
+            "If you have questions about this Privacy Policy, you can contact us at bestshooter2020@163.com."
           ]
         },
         {
           languageLabel: "中文",
           title: "隐私政策",
           body: [
-            "[中文隐私政策内容待补充]",
-            "后续需补齐数据收集、本地网络权限、文件传输范围、支持联系方式和更新说明。"
+            "Crosync Drop 旨在帮助你在同一局域网内，借助 Crosync Hub 将电脑文件传输到 iPhone。",
+            "我们不会主动收集你通过 App 和桌面端传输的文件内容。文件传输由你主动发起，且设计目标是在你的本地网络环境内直接完成。",
+            "为了提供服务，App 和网站可能会处理少量必要的技术信息，例如设备连接状态、局域网发现状态、应用版本信息以及用于排障的基础错误信息。",
+            "如果你主动联系支持邮箱，我们可能会收到你自行提供的信息，包括邮箱地址以及你在邮件中附带的诊断描述。我们仅会将这些信息用于回复你的请求和改进支持质量。",
+            "Crosync Drop 与 Crosync Hub 可能会申请本地网络或系统相关权限，以实现设备发现、连接和文件传输。这些权限仅用于产品核心功能。",
+            "我们不会出售你的个人信息。当前网站也不提供用户账户系统，也不用于行为广告投放。",
+            "随着软件持续更新，我们可能会不时调整本隐私政策。若有重要变更，我们会在本页面更新相应内容及生效日期。",
+            "如果你对本隐私政策有疑问，请通过 bestshooter2020@163.com 与我们联系。"
           ]
         },
         {
           languageLabel: "日本語",
           title: "プライバシーポリシー",
           body: [
-            "[日本語のプライバシーポリシーは後日追加予定]",
-            "データ収集、ローカルネットワーク権限、ファイル転送範囲、サポート連絡先、更新方針を含む正式文面を後で追加します。"
+            "Crosync Drop は、同じローカルネットワーク上で Crosync Hub を使い、コンピュータから iPhone へファイルを転送するためのソフトウェアです。",
+            "当社は、アプリおよびデスクトップコンパニオンを通じて転送されるファイル内容を意図的に収集しません。ファイル転送はユーザー自身によって開始され、ローカルネットワーク内で直接行われることを前提としています。",
+            "サービス提供のために、接続状態、ローカルネットワーク検出状況、アプリのバージョン情報、トラブルシューティングに必要な基本的なエラー情報など、限定的な技術情報を処理する場合があります。",
+            "サポートへお問い合わせいただいた場合、メールアドレスやお問い合わせ内容に含まれる診断情報を受け取ることがあります。これらの情報は、お問い合わせへの対応およびサポート品質向上のためにのみ使用します。",
+            "Crosync Drop と Crosync Hub は、デバイス検出、接続、ファイル転送のためにローカルネットワークまたはシステム権限を要求する場合があります。これらの権限は製品の中核機能のためにのみ使用されます。",
+            "当社は個人情報を販売しません。また、本ウェブサイトではユーザーアカウント機能や行動ターゲティング広告を提供していません。",
+            "ソフトウェアの更新に伴い、本プライバシーポリシーを随時変更することがあります。重要な変更がある場合は、本ページ上の内容および適用日を更新します。",
+            "本ポリシーについてご不明な点がある場合は、bestshooter2020@163.com までご連絡ください。"
           ]
         }
       ]
@@ -264,24 +282,45 @@ export const siteContent = {
           languageLabel: "English",
           title: "Terms of Use",
           body: [
-            "[English Terms of Use content pending]",
-            "Prepare final text covering permitted use, user responsibilities, software distribution, warranty disclaimers, and limitation of liability."
+            "By downloading, installing, or using Crosync Drop, Crosync Hub, or this website, you agree to these Terms of Use.",
+            "Crosync Drop and Crosync Hub are provided for personal or internal use to transfer files from a computer to an iPhone over a local network. You are responsible for using the software in compliance with applicable laws and the rights of others.",
+            "You are responsible for the files you choose to transfer, store, or manage through the software. You must not use the product to transmit unlawful, infringing, harmful, or unauthorized content.",
+            "You may not reverse engineer, redistribute, resell, or misuse the software except where such restriction is prohibited by applicable law.",
+            "We may update, improve, suspend, or discontinue parts of the website or software at any time, with or without notice.",
+            "The software and website are provided on an 'as is' and 'as available' basis, without warranties of any kind to the fullest extent permitted by law. We do not guarantee uninterrupted availability, error-free operation, or fitness for a particular purpose.",
+            "To the fullest extent permitted by law, we are not liable for indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profit, business opportunity, or device availability arising from the use of the software or website.",
+            "These Terms of Use may be updated from time to time. Continued use of the website or software after updates means you accept the revised terms.",
+            "If you have questions about these Terms of Use, contact bestshooter2020@163.com."
           ]
         },
         {
           languageLabel: "中文",
           title: "使用条款",
           body: [
-            "[中文使用条款内容待补充]",
-            "后续需补齐许可范围、用户责任、软件分发、免责声明和责任限制等正式内容。"
+            "当你下载、安装或使用 Crosync Drop、Crosync Hub 或本网站时，即表示你同意受本使用条款约束。",
+            "Crosync Drop 与 Crosync Hub 旨在用于个人或内部场景下，通过局域网将电脑文件传输到 iPhone。你有责任确保自己的使用方式符合适用法律以及他人的合法权益。",
+            "你应自行对通过本软件传输、保存或管理的文件负责。你不得利用本产品传输违法、侵权、有害或未经授权的内容。",
+            "除非适用法律明确允许，否则你不得对本软件进行反向工程、再分发、转售或其他不当使用。",
+            "我们可在任何时候对网站或软件进行更新、改进、暂停或停止全部或部分功能，并可不另行通知。",
+            "在法律允许的最大范围内，本软件和网站按“现状”和“可用”基础提供，不附带任何明示或默示保证。我们不保证服务持续不中断、绝对无错误，亦不保证其适用于任何特定用途。",
+            "在法律允许的最大范围内，对于因使用本软件或网站而引起的任何间接、附带、特殊、后果性或惩罚性损害，以及数据、利润、商业机会或设备可用性的损失，我们不承担责任。",
+            "我们可能会不时更新本使用条款。若你在条款更新后继续使用网站或软件，视为你接受修订后的条款。",
+            "如果你对本使用条款有疑问，请联系 bestshooter2020@163.com。"
           ]
         },
         {
           languageLabel: "日本語",
           title: "利用規約",
           body: [
-            "[日本語の利用規約は後日追加予定]",
-            "利用範囲、利用者責任、ソフトウェア配布、保証免責、責任制限を含む正式文面を後で追加します。"
+            "Crosync Drop、Crosync Hub、または本ウェブサイトをダウンロード、インストール、または利用することにより、利用者は本利用規約に同意したものとみなされます。",
+            "Crosync Drop と Crosync Hub は、ローカルネットワーク経由でコンピュータから iPhone へファイルを転送するための、個人利用または社内利用向けソフトウェアです。利用者は、適用される法令および第三者の権利を遵守して利用する責任を負います。",
+            "利用者は、本ソフトウェアを通じて転送、保存、管理するファイルについて自ら責任を負うものとします。違法、権利侵害、有害、または無断のコンテンツを送信してはなりません。",
+            "適用法で明示的に認められる場合を除き、本ソフトウェアのリバースエンジニアリング、再配布、再販売、または不適切な利用を行ってはなりません。",
+            "当社は、ウェブサイトまたはソフトウェアの全部または一部を、通知の有無にかかわらず更新、改善、一時停止、または終了することがあります。",
+            "法令で認められる最大限の範囲において、本ソフトウェアおよび本ウェブサイトは「現状有姿」かつ「提供可能な範囲」で提供され、明示または黙示を問わずいかなる保証も行いません。継続的な提供、無エラー動作、特定目的への適合性も保証しません。",
+            "法令で認められる最大限の範囲において、本ソフトウェアまたは本ウェブサイトの利用に起因する間接損害、付随損害、特別損害、結果損害、懲罰的損害、ならびにデータ、利益、事業機会、またはデバイス可用性の喪失について、当社は責任を負いません。",
+            "本利用規約は随時更新される場合があります。更新後も利用を継続した場合、改定後の規約に同意したものとみなされます。",
+            "本利用規約についてご不明な点がある場合は、bestshooter2020@163.com までご連絡ください。"
           ]
         }
       ]

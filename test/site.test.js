@@ -35,6 +35,11 @@ test("renderHomePage includes brand, direct downloads, and faq shells", () => {
   assert.match(markup, /FAQ/);
 });
 
+test("download links target latest release assets", () => {
+  assert.match(siteContent.downloads.windows, /releases\/latest\/download\/CrosyncHubSetup\.exe$/);
+  assert.match(siteContent.downloads.mac, /releases\/latest\/download\/CrosyncHub\.dmg$/);
+});
+
 test("renderFooter stays minimal", () => {
   const markup = renderFooter("en", siteContent.shared);
 
@@ -51,4 +56,6 @@ test("renderLegalPage includes all three languages on one page", () => {
   assert.match(markup, /中文/);
   assert.match(markup, /日本語/);
   assert.match(markup, /Privacy Policy/);
+  assert.doesNotMatch(markup, /content pending/i);
+  assert.doesNotMatch(markup, /待补充/);
 });
